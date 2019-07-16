@@ -1,0 +1,28 @@
+body {
+    margin: 0 auto;
+    padding: 20px;
+    background: #130f40;
+}
+
+a {
+    position: absolute;
+    border: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 20px 50px;
+    border-radius: 50px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    color: #1670f0;
+    background-image: linear-gradient(to left, #30336b, #130f40, #30336b);
+    background-size: 200%;
+    transition: .6s;
+}
+
+a:hover {
+    background-position: right;
+}

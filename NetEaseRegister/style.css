@@ -1,0 +1,109 @@
+@import "../reset.css";
+
+body{
+    font-family: verdana,sans-serif;
+}
+a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*头部样式*/
+.header {
+    box-sizing: border-box;
+    width: 960px;
+    height: 81px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.header .log {
+    width: 644px;
+    height: 27px;
+    background: url(sprite.png) no-repeat 0 0;
+    float: left;
+}
+
+.header .log a {
+    display: inline-block;
+    width: 126px;
+    height: 27px;
+    cursor: pointer;
+}
+
+.header .back {
+    width: 100px;
+    height: 27px;
+    float: right;
+    text-align: right;
+    line-height: 27px;
+}
+
+.header .back a {
+
+}
+
+/*内容样式*/
+.content {
+    width: 960px;
+    height: 594px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.content .top {
+    height: 36px;
+    background-color: #5f8fc0;
+    border: 1px solid #ccc;
+    border-radius: 6px 6px 0 0;
+    line-height: 34px;
+    font-weight: normal;
+    text-indent: 20px;
+    color: #f5ffff;
+    font-size: 14px;
+}
+
+.content .bottom {
+    box-sizing: border-box;
+    height: 560px;
+}
+
+.content .bottom .article {
+    box-sizing: border-box;
+    width: 578px;
+    height: 100%;
+    float: left;
+    border: 1px solid #ffffff;
+    border-top: none;
+    border-right: none;
+}
+
+.content .bottom .aside {
+    box-sizing: border-box;
+    width: 286px;
+    height: 100%;
+    float: right;
+    border: 1px solid #ffffff;
+    border-top: none;
+    background: #f5f5f5 url("aside.png") no-repeat 22px 117px;
+}
+
+/*底部样式*/
+.footer {
+    box-sizing: border-box;
+    width: 960px;
+    height: 64px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 12px;
+}
+.footer a{
+    color: #999999;
+}
